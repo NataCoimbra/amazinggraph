@@ -1,0 +1,182 @@
+
+body{
+    background: #fff;
+}
+
+.container{
+
+}
+
+.cabecalho{
+
+}
+
+.cabecalho #mainLogo h1{
+    color: #D2872C;
+    text-decoration: none;
+    margin: 0;
+}
+
+.cabecalho #mainLogo a{
+    color: #D2872C;
+    text-decoration: none;
+}
+
+.cabecalho #mainLogo ul{
+    color: #D2872C;
+    text-decoration: none;
+}
+
+
+.content{
+    color: #766F68;
+    font-family: Roboto;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: Roboto, sans-serif;
+    color: #766F68;
+}
+
+#mainBanner .imgBanner img{
+
+}
+
+#mainBanner .imgBanner img{
+    
+}
+
+#mainBanner .button{
+    background: #D2872C;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+
+.container{
+    padding: 30px;
+}
+
+.cabecalho{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.cabecalho nav{
+    display: none;
+}
+
+.cabecalho #hamburgerImg{
+    display: block;
+    width: 30px;
+}
+
+#mainBanner{
+    margin-top: 30px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#mainBanner h2{
+    font-size: 35px;
+}
+
+#mainBanner h3{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+#mainBanner .imgBanner{
+    margin: 0px;
+}
+
+#mainBanner .imgBanner img{
+    max-width: 85%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 801px){
+    .container{
+        padding: 15px;
+    }
+
+    .cabecalho #hamburgerImg{
+        display: none;
+    }
+
+    
+    .cabecalho{
+        padding: 0px 30px;
+    }
+
+    .cabecalho #mainLogo{
+        width: fit-content;
+        float: left;
+    }
+
+    .cabecalho nav{
+        display: block;
+        float: right;
+        width: max-content;
+    }
+
+    .cabecalho nav ul{
+        list-style-type: none;
+
+    }
+
+    
+    .cabecalho nav ul a{
+        text-decoration: none;
+        font-family: Roboto, sans-serif;
+    }
+
+    .cabecalho nav ul li{
+        display: inline-block;
+        margin-right: 30px;
+        font-size: 25px;
+        font-family: Roboto, sans-serif;
+        cursor: pointer;
+    }
+
+    .cabecalho nav ul a:hover{
+        filter: brightness(50%);
+    }
+
+
+    #mainBanner{
+        position: relative;
+    }
+
+    #mainBanner .bannerContent{
+        padding: 25px 0px;
+        padding-right: 100px;
+    }
+
+    #mainBanner .bannerTextContent{
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        text-align: left;
+        width: 40%;
+    }
+
+    #mainBanner .bannerTextContent h2{
+        font-size: 65px;
+    }
+
+    #mainBanner .bannerTextContent h3{
+        font-size: 40px;
+    }
+    
+
+    #mainBanner .imgBanner{
+        width: 60%;
+        float: right;
+    }
+
+}
